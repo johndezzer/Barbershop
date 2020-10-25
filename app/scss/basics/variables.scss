@@ -1,0 +1,6 @@
+@mixin container {
+  @include mobile() {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
