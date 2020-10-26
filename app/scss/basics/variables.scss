@@ -1,4 +1,14 @@
 @mixin container {
-    padding-left: 2rem;
-    padding-right: 2rem;
+  padding-left: 6.25%;
+  padding-right: 6.25%;
 }
+
+@mixin heading {
+  font-size: 3rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+$border: 0.1rem solid #e5ddd5;
