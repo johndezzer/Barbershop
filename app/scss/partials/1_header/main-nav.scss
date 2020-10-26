@@ -1,0 +1,23 @@
+.main-nav {
+  background: #826550;
+  width: 100%;
+  @include container;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  &__item {
+    display: none;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #fff;
+
+    &--active {
+      display: block;
+    }
+  }
+}

@@ -369,4 +369,11 @@ body {
   margin: 0 auto;
 }
 
-
+.mobile-only {
+  @include tablet(){
+    display: none;
+  }
+  @include desktop(){
+    display: none;
+  }
+}

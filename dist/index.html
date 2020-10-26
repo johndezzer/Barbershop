@@ -6,7 +6,80 @@
     <title>Barbershop</title>
   </head>
   <body>
-
+    <header class="main-header">
+      <img class="brand-logo" alt="brand logo" src="images/logotype-mobile.png">
+      <nav class="main-nav">
+        <div class="main-nav__item main-nav__item--active">Главная</div>
+        <div class="main-nav__item">Наши работы</div>
+        <div class="main-nav__item">Записаться</div>
+        <div class="main-nav__item">Контакты</div>
+        <div class="main-nav__item">HTML ACADEMY</div>
+        <div class="main-nav__item">Вход</div>
+      </nav>
+    </header>
+    <section class="facts">
+      <header class="facts__header">
+        <h2 class="facts__heading">Стрижка у нас выгодно!</h2>
+        <p class="facts__text">Мужская стрижка требует точного подхода. Обратимся к статистике:</p>
+      </header>
+      <div class="facts__item facts__item--gray">
+        <div class="facts__item-number">1 500 *</div>
+        <div class="facts__item-text">рублей <br class="mobile-only">вложений</div>
+      </div>
+      <div class="facts__item facts__item--gray-light">
+        <div class="facts__item-number">7 200</div>
+        <div class="facts__item-text">секунд <br class="mobile-only">времени мастера</div>
+      </div>
+      <div class="facts__item facts__item--gray-dark">
+        <div class="facts__item-number">90 000</div>
+        <div class="facts__item-text">постриженных<br class="mobile-only"> волос</div>
+      </div>
+      <div class="facts__item facts__item--gray">
+        <div class="facts__item-number">500 000</div>
+        <div class="facts__item-text">лайков и <br class="mobile-only">комплиментов</div>
+      </div>
+      <footer class="facts__footer">
+        * — приведённые данные ложь
+      </footer>
+    </section>
+    <section class="advantages">
+      <article class="advantages__item">
+        <img class="advantages__item-image" alt="advantage" src="images/advantage-1.png">
+        <h2 class="advantages__item-heading">Быстро</h2>
+        <p class="advantages__item-text">Мы делаем свою работу быстро! Два часа пролетят незаметно и Вы — счастливый
+          обладатель стильной стрижки-минутки</p>
+      </article>
+      <div class="advantages__btns">
+        <button class="advantages__btn advantages__btn--active"></button>
+        <button class="advantages__btn"></button>
+        <button class="advantages__btn"></button>
+      </div>
+    </section>
+    <section class="news">
+      <h2 class="news__heading">Новости и акции</h2>
+      <div class="news__items-cont">
+        <article class="news__item">
+          <div class="news__item-date">
+            <div class="news__item-number">29</div>
+            <div class="news__item-month">Сент</div>
+          </div>
+          <div class="news__item-text">Нам наконец завезли Ягермайстер! Теперь вы можете пропусить стаканчик во время
+            стрижки.
+          </div>
+        </article>
+        <article class="news__item">
+          <div class="news__item-date">
+            <div class="news__item-number">19</div>
+            <div class="news__item-month">Сент</div>
+          </div>
+          <div class="news__item-text">В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества
+            титулов
+            и наград пополнил наши стройные ряды. Спешите записаться!
+          </div>
+        </article>
+      </div>
+      <a class="news__show-more" href="#">Показать все</a>
+    </section>
     <script src="js/script-min.js"></script>
   </body>
 </html>
